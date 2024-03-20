@@ -1,0 +1,28 @@
+# Audio processing
+pydub==0.25.1
+ffmpeg-python==0.2.0
+
+# Video downloading
+yt-dlp==2022.11.11
+
+# Audio source separation
+demucs==4.0.0
+
+# Transcription and alignment
+faster-whisper==0.5.1
+whisperx==0.2.1
+
+# Speaker diarization
+nemo-toolkit[asr]==1.17.0
+
+# Punctuation restoration
+deepmultilingualpunctuation==1.0.0
+
+# Subtitle generation
+pysrt==1.1.2
+
+# Other dependencies
+torch>=1.7.0
+torchaudio>=0.7.0
+tqdm>=4.64.0
+numpy>=1.21.0
